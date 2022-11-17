@@ -108,6 +108,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-flow: wrap; /* will dropdown the icons in mobile */
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
